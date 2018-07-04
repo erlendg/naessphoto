@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding: 0px;
+}
+
+.App-parent{
+  display: flex; 
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-header{
+flex-grow: 2;
+}
+
+.App-main{
+  display: flex; 
+  flex-direction: row; 
+  align-items: stretch;
+  flex-grow: 14;
+  
+}
+
+.App-menu{
+  background-color: lightgray;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.App-content{
+  background-color: white;
+  flex-grow: 20;
+  text-align: center;
+}
+
+.App-filler{
+  background-color: lightgray;
+ flex-grow: 2;
+}
+
+.App-footer{
+  flex-grow: 1;
+  background-color: white;
+}
+
+.App-copyright{
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+}
+
